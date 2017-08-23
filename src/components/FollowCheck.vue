@@ -35,7 +35,7 @@
   import Check from '../assets/icons/plus.png';
 
   export default {
-    name: '',
+    name: 'FollowCheck',
     data () {
       return {
         msg: {

@@ -1,18 +1,12 @@
 <template xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
     <div id="table">
-
       <div id="head">
         <div id="user"></div>
         <div id="ideas">{{msg.ideas}}</div>
         <div id="following">{{msg.following}}</div>
         <div id="followers">{{msg.followers}}</div>
       </div>
-
-      <user
-        v-for="items in sendData"
-        v-bind:data="items"
-      ></user>
-
+      <user v-for="items in sendData" v-bind:data="items"></user>
     </div>
 </template>
 
@@ -21,7 +15,7 @@
   import UserLine from './UserLine.vue'
 
     export default {
-      name: '',
+      name: 'Table',
       data () {
         return {
           msg: {

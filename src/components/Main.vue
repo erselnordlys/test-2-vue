@@ -16,7 +16,7 @@
   import ShowMoreButton from './ShowMoreButton.vue'
 
   export default {
-    name: '',
+    name: 'Main',
     data () {
       return {
         msg: {

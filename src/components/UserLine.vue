@@ -1,7 +1,6 @@
 <template xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
     <div
-      id="main"
-    >
+      id="main">
       <div class="user-data">
         <div class="photo" v-bind:style="{background: 'url(' + img + ') center /cover'}"></div>
         <div class="column">
@@ -32,7 +31,7 @@
 
 
   export default {
-    name: '',
+    name: 'UserLine',
     data () {
       return {
               name: this.data.name,

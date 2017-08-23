@@ -7,7 +7,7 @@
 <script>
 
   export default {
-    name: '',
+    name: 'ShowMore',
     data () {
       return {
         msg: 'SHOW MORE'

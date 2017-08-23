@@ -7,23 +7,22 @@
 
 <script>
   import Main from './components/Main.vue'
-export default {
-  name: 'app',
-  data() {
-    return {}
-  },
-  components: {
-    wrapper: Main
-  }
+  export default {
+    name: 'app',
+      data() {
+        return {}
+      },
+      components: {
+        wrapper: Main
+      }
 
-}
+  }
 </script>
 
 <style>
 
   html {
     background-color: #4b5151;
-
   }
 #app {
   align-items: center;
